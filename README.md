@@ -15,14 +15,14 @@ First step is to deploy the template into your own account.
 3. Make the repository Public. 
 4. Click Create Repository from Template to start the migration. Once complete, it will open to the ReadMe.md in the root of the repository under your account. You now have a "copy" of all files and can modify, edit and use these files to learn. 
 
-### You must enable GitHub pages to view HTML documents at the url `[username].github.io/geom99lab1/`. 
+### You must enable GitHub pages to view HTML documents at the url `cklouislok.github.io/geom99lab1/`. 
 
 6. Click the `Settings` icon, near the top-right side of the GitHub window
 7. Scroll to the bottom and look for `Pages` entry in the left selection, click it. 
 8. Under `Source: Branch`, select `Main`. Leave the other settings as Root
 9. Click `Save` to commit this. 
 
-Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://[username].github.io/geom99lab1` where `[username]` is your GitHub account username and the repository name is `geom99lab1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
+Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://cklouislok.github.io/geom99lab1` where `[username]` is your GitHub account username and the repository name is `geom99lab1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
 
 ## Activities to complete
 
