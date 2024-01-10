@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <!-- Template for submission of SharkSpotters Google MyMaps activity 2022. 
+       Modify the SRC Url with the embed link and test this page to be sure it functions as expected. 
+       Submit this page's URL (not the embed url) when asked during your practical lab -->
+  <!-- The public URL of this on GitHub pages will be 
+       https://[username].github.io/pl1/mymaps/sharkspotters.html 
+       where [USERNAME] is replaced your github username -->
+  <head>
+    <style>
+      body {font-family: "Trebuchet MS","sans-serif";}    
+      body, html {width: 100%; height: 100%; margin: 0; padding: 0}  /* uses FlexBox https://www.w3schools.com/css/css3_flexbox.asp */
+      .row-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: white; overflow: hidden;}
+      .first-row {background-color: grey; }
+      .second-row {flex-grow: 1; border: none; margin: 0; padding: 0;}
+      h1 {margin: 2px;}
+    </style>
+  </head>
+<body>
+  <div class="row-container">
+    <div class="first-row">
+      <h1>Sharkspotters MyMaps</h1>
+    </div>
+    <!-- 
+      *** TO DO ***
+      Modify the iframe src property to be your Shark Spotters embed link from the instructions (below)
+      https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/#embed-your-map-5-5
+      * Note: Be sure your shark spotters is shared with the public, or it won't be accessible to mark and you will not earn any marks. 
+      -->
+    <iframe class="second-row" id="GoogleMyMaps" src="https://www.google.com/maps/d/u/0/embed?mid=1RtLOehNImRBoLOxm8wN_gq4Z5Ok&usp=sharing" title="Google MyMaps">
+    </iframe>
+  </div>
+</body>
+</html>
