@@ -1,1 +1,1775 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJraeA2rarQjQRPBBjyR3RxKw",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "shopping_mall"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJfUpAzTqsQjQRwQl6ORhwbV0",
+         "types" : 
+         [
+            "establishment",
+            "museum",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJTamiuZ2pQjQRsmnfkkID6UM",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ1RXSYsCfQjQRCbG1qZC2o3A",
+         "types" : 
+         [
+            "airport",
+            "establishment",
+            "point_of_interest"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 25.1503781,
+               "lng" : 121.5733134
+            },
+            "southwest" : 
+            {
+               "lat" : 25.0317531,
+               "lng" : 121.1812244
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "10.2 km",
+                  "value" : 10242
+               },
+               "duration" : 
+               {
+                  "text" : "22 mins",
+                  "value" : 1315
+               },
+               "end_address" : "No. 221, Sec 2, Zhi Shan Rd, Shilin District, Taipei City, Taiwan 111",
+               "end_location" : 
+               {
+                  "lat" : 25.1002388,
+                  "lng" : 121.5499371
+               },
+               "start_address" : "No. 45 號, City Hall Rd, Xinyi District, Taipei City, Taiwan 110",
+               "start_location" : 
+               {
+                  "lat" : 25.0332814,
+                  "lng" : 121.5635909
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "6 m",
+                        "value" : 6
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0332567,
+                        "lng" : 121.5635382
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e toward \u003cb\u003e市府路\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_ixwCm{}dVBH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0332814,
+                        "lng" : 121.5635909
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "83 m",
+                        "value" : 83
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 42
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0340019,
+                        "lng" : 121.5635552
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e市府路\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{hxwCc{}dVW?EAU?G?I?mAA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0332567,
+                        "lng" : 121.5635382
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 127
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 67
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.032972,
+                        "lng" : 121.5633789
+                     },
+                     "html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e at \u003cb\u003e市府路迴轉道\u003c/b\u003e",
+                     "maneuver" : "uturn-left",
+                     "polyline" : 
+                     {
+                        "points" : "omxwCg{}dV?XB?J@p@@H@@?H?L?B?F?B?J@H@`A?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0340019,
+                        "lng" : 121.5635552
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 368
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.03309,
+                        "lng" : 121.5597297
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e信義路五段\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "agxwCcz}dV?P?FAn@?`@AhBAr@?DArA?FAh@A\\ElD?p@AZ?FC`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.032972,
+                        "lng" : 121.5633789
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "83 m",
+                        "value" : 83
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0337485,
+                        "lng" : 121.5601188
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e基隆路一段\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "ygxwCic}dVs@_@GCg@WMGQI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.03309,
+                        "lng" : 121.5597297
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1216
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 133
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0433721,
+                        "lng" : 121.5658251
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003e基隆路地下道\u003c/b\u003e, follow signs for \u003cb\u003eTiding Blvd.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eHuandong Blvd.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBade Rd.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eNanjing E. Rd.\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "}kxwCwe}dVKAKAGCGEs@[gAi@AC[OA?[QAAA?u@_@gB_A?AGC_Ak@{Ay@?A}@a@aBu@{H_EuDiB_@ScAg@[OOGmAo@_@QGEwBeA}C}AoDiB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0337485,
+                        "lng" : 121.5601188
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 840
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 75
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0500219,
+                        "lng" : 121.5697678
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e正氣橋\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ahzwCmi~dV]O}Aw@oCwA}CaBKGKGCAECIEIEECECgAi@eB}@GCEA?AeB}@aBy@QIECGCGAE?GA]Qa@S_By@A?}Aw@UMUMo@Yo@["
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0433721,
+                        "lng" : 121.5658251
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1510
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 91
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0623505,
+                        "lng" : 121.5728156
+                     },
+                     "html_instructions" : "Take the exit on the \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eTiding Interchange\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eNeihu Rd.\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eTiding Blvd.\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : 
+                     {
+                        "points" : "sq{wCab_eV[EAAYMs@[WMOGUKIEMEGAECOAOCS?O?U?_@?w@B_@BU@sALM?M@K@cAF]BA?E?K@]@gAJS?e@BYEUGOEICGCIG]SOOAAAACEc@c@g@g@gAkAOMKMMMY[AAo@u@QSUY{@u@SSGGOSQSGIYa@SOGEWQGCQIa@OMCKCUEIAMAE?_@C[?Y?S@SBWBWDk@FiAJaAJi@FC?g@Dg@Da@Dm@DM@cAFA?]Bi@BM@U@O?M@K@I?G?IC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0500219,
+                        "lng" : 121.5697678
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.4 km",
+                        "value" : 1394
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 141
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0745716,
+                        "lng" : 121.5723481
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003e堤頂大道一段\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "u~}wCcu_eVaD\\mF^QDgCFs@BqAFkAD_@?U?SASAUAYC[COCSESEEAo@OmA]]K]Ie@M_AWm@Oi@K?AUCQC]Cg@Ci@A[@K?q@?uB?_A?mA?iABg@B[Bu@FY@I@{@P]HKBGB[HUHIDOFWHQH[NWNQJULQJ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0623505,
+                        "lng" : 121.5728156
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1224
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 176
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0804756,
+                        "lng" : 121.5627305
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e堤頂大道二段\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ak`xCer_eVMHg@V{@d@[PMFUNu@d@C@WR_@TMHOJOJCBMHKHc@d@ORORQ^Ud@K\\I\\CJENCNUjAIb@ETGVMn@GVUjAaAvEm@`DKj@g@hCSnAAJGTETGPENEJEJGLGJGLKJ[d@EFONYZYViA`A}@t@MJc@^]Z"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0745716,
+                        "lng" : 121.5723481
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 497
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 75
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0845093,
+                        "lng" : 121.5606901
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003e堤頂大道二段\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "_paxCav}dVOJGDe@Xq@\\YJUJu@TuAd@mBl@aA\\s@T{Ad@E@C?E@IBWFg@PWLMJy@t@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0804756,
+                        "lng" : 121.5627305
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 254
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 60
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0849141,
+                        "lng" : 121.5583965
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e內湖路一段\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by the gas station (on the right)\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "eibxCii}dVOLKLGJWZOn@Gd@CLERETALETE\\CZAV?N?H?D@H?FBHDPZr@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0845093,
+                        "lng" : 121.5606901
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 845
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 124
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.086189,
+                        "lng" : 121.550353
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e北安路\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ukbxC_{|dVN\\FLFPDNFPDNBLDZ@L@L@N?V?J?@?PATAPCPADETMn@CJERCJe@~BSbAMt@GTk@tCKd@y@bEOt@GXMn@M`AK~AOtDATCZ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0849141,
+                        "lng" : 121.5583965
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 120
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0869703,
+                        "lng" : 121.5496208
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit and stay on \u003cb\u003e北安路\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "usbxCuh{dVELMTMVGJMVMLGDQJk@LOB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.086189,
+                        "lng" : 121.550353
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 839
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 82
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0944809,
+                        "lng" : 121.5488788
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e自強隧道\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "qxbxCcd{dVYBYBeNj@c@BqDNaCJ{CPuGZ}AH{AF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0869703,
+                        "lng" : 121.5496208
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 165
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0958708,
+                        "lng" : 121.5485007
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e自強橋\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ogdxCo_{dV]?e@Bo@B_@Bm@DC?M@G@GDUNGDSX"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0944809,
+                        "lng" : 121.5488788
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 347
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0986024,
+                        "lng" : 121.5476122
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e力行街\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "epdxCc}zdVIAC@A@C@OH]JUBQ?K?QE[IOKIEKG?AKEGAIAKCK?MAMDG@EBE@IDg@Vu@f@QPSTg@^EBi@b@KJ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0958708,
+                        "lng" : 121.5485007
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 293
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 48
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1000142,
+                        "lng" : 121.5500684
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e至善路二段\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "gaexCqwzdVOWGOu@kBQc@Yu@Ue@Ua@a@u@We@y@yA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0986024,
+                        "lng" : 121.5476122
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "28 m",
+                        "value" : 28
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1002212,
+                        "lng" : 121.5499133
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ajexC}f{dVKH]T"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1000142,
+                        "lng" : 121.5500684
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "3 m",
+                        "value" : 3
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1002388,
+                        "lng" : 121.5499371
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "kkexC}e{dVCE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1002212,
+                        "lng" : 121.5499133
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "11.6 km",
+                  "value" : 11551
+               },
+               "duration" : 
+               {
+                  "text" : "26 mins",
+                  "value" : 1557
+               },
+               "end_address" : "Zhongzheng District, Taipei City, Taiwan 100",
+               "end_location" : 
+               {
+                  "lat" : 25.0355166,
+                  "lng" : 121.5175356
+               },
+               "start_address" : "No. 221, Sec 2, Zhi Shan Rd, Shilin District, Taipei City, Taiwan 111",
+               "start_location" : 
+               {
+                  "lat" : 25.1002388,
+                  "lng" : 121.5499371
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 277
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 47
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1025167,
+                        "lng" : 121.5501532
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial restricted usage road\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "okexCcf{dVCEGGGEs@e@k@]QIKCIAI?G?C@E@MBMDC@QFo@Tm@TQDI@G@E@GAE?e@Ga@G"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1002388,
+                        "lng" : 121.5499371
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 274
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 73
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1014826,
+                        "lng" : 121.5481017
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "wyexCmg{dVIRCJCJAL@F?DBDBDHDDBDBD@F?H@`@CB?D@D@B@BBDDBFFN@@\\dATt@Vv@DNBDBF@F@F?H?F?X"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1025167,
+                        "lng" : 121.5501532
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "49 m",
+                        "value" : 49
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1015991,
+                        "lng" : 121.5477596
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "gsexCszzdVA??@?@A??@?@?@?@?@?@?@@??@?@O@CBC@ABCB?@AB?@?B@F@BDD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1014826,
+                        "lng" : 121.5481017
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 397
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 86
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0983097,
+                        "lng" : 121.5465949
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e至善路二段113巷\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_texCoxzdVb@^l@d@DBDBB@D@F@HBPBTDNBRBVDLBHBHBLFPFFBB?B@F?F?RAd@Cn@EH?F?F?B?B@NFNBJDFBFDDDBBFDLFZNXLFBNFH@P@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1015991,
+                        "lng" : 121.5477596
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 450
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0972788,
+                        "lng" : 121.5424445
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e至善路二段\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "m_exCeqzdVDNFLRj@tAjDp@fBv@rB?L?F?DKtDAnAEhA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0983097,
+                        "lng" : 121.5465949
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.7 km",
+                        "value" : 673
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 92
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0993725,
+                        "lng" : 121.5364733
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e至善路一段\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_ydxCgwydVI|BCl@Cd@GtBCf@Cf@G`By@nEOz@CPADAFUhACHCHEHKNONOP_A~@cAfAKNeApA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0972788,
+                        "lng" : 121.5424445
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 510
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 105
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0966435,
+                        "lng" : 121.5324115
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e福林路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台2甲線\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "afexC}qxdVNNn@x@FN`@p@hAjBNT|@~AXd@zAjCPZ`@v@r@pA`AdB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0993725,
+                        "lng" : 121.5364733
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.2 km",
+                        "value" : 2209
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 346
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0796833,
+                        "lng" : 121.5243481
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003e福林路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台2甲線\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow 台2甲線\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "_udxCqxwdVFl@NCn@x@BFPXV`@h@`A\\n@^l@DHf@|@NVj@`Ar@pAFJPZTb@Vb@JPBDj@bAVd@HNJTJVh@FzANT@dBP@?J@~APbAJrCVj@FL@N@T@VAXAj@Ef@C`@A`@?R?T@t@DXB`@H^H`@JXJLFFBNFNFLFHFJF\\TRLLJBBBBPLHFb@\\DDFDHHHFVRn@d@RLHFPHRHVJND`@JJBVFb@Fd@F`@BX@jB@F?b@J^Bh@?f@@f@?R?F?P@R?R@D@T@RBLBJ@HBHBPDD@B@p@XNHPJTLLJNJHFb@\\PJHFDDLFRHHDLDH@JBLDH@J@L@H?L?N?XAJAJAJAr@K`@E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0966435,
+                        "lng" : 121.5324115
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.5 km",
+                        "value" : 4458
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 285
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0414941,
+                        "lng" : 121.529332
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e新生高架道路\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "_kaxCefvdVBGBA@ABADAD?JCd@KZGVEDADAz@Ot@Ov@Of@K^INCJAHAZAFAF?b@C@?FAHAb@CNAJ?PCREf@MNE^Kb@Kp@SPCBAREJAPAL?H?T@J?b@JP?\\DF?N?J?F?Z?B?FEHEf@UTMd@]ZQDCLM\\YhDmCLKNKJIBAJKJIZWp@i@^WFGFE@ARMJCFEHCDAJCFAHCFANAL?T?H?F?H?|A@`IFZ@F?R?T?F?F@x@?`CBLAL?hB@R?P@l@@@?lCB`@?h@@~ABJ?L?tA@`CBfA@L?L?V?V@n@?b@@\\?h@@fA@J?L?fA@vA@J@L?fA?`A@J?L?fA@dA@J?J?b@?v@@J?H?R?JAL?x@BJAH?pA@P@bA?bABZ?Z?vDBT?V?V?xB@^?L?L?d@?x@Ch@AFAL?JAx@E^Ch@GLCTCPCLCVEVEREREREFCFAFAfAYLEb@MJAVK`@MPKx@]HCHE`@Qv@]`@UXOXQ^UPMTOl@c@XSRSr@q@d@e@n@u@@AX[NQDEDEDEBCDCBADCHEDAJCF?H?H@NBj@Hd@HH@JBNDfAT`@HD@XFhAThARbARfAT^FD@FBF@p@Lt@NJBTD`@H`@H\\Fx@PPDb@HF@p@LFBF@FB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0796833,
+                        "lng" : 121.5243481
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 845
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 150
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.034154,
+                        "lng" : 121.5272332
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e金山南路一段\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by 收購老酒收購人蔘台北大盤商 (on the right)\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "i|ywCiewdVRDf@L`APhBZvA^|@TPDFBlAZj@Nf@Jx@TTDTD|@PzBb@dATn@JF@lAVn@JrAX^Ht@JzDX"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0414941,
+                        "lng" : 121.529332
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 272
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 57
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0317389,
+                        "lng" : 121.5268001
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e金山南路二段\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "mnxwCexvdVN?NB|@HPBjBRJ?D@b@DpD`@\\D"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.034154,
+                        "lng" : 121.5272332
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1046
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 200
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0348109,
+                        "lng" : 121.517101
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e愛國東路\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "k_xwCouvdVAVQfCKhAGb@Gf@i@hF?@AN]vEKfAK\\KZWv@wAzDETk@vAqBdFI\\w@fCKVGTEVaAxCCDIZGV"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0317389,
+                        "lng" : 121.5268001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "25 m",
+                        "value" : 25
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0349861,
+                        "lng" : 121.5172462
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qrxwC{xtdV[SGI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0348109,
+                        "lng" : 121.517101
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "66 m",
+                        "value" : 66
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0355166,
+                        "lng" : 121.5175356
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "usxwCyytdViBy@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0349861,
+                        "lng" : 121.5172462
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "52.3 km",
+                  "value" : 52315
+               },
+               "duration" : 
+               {
+                  "text" : "54 mins",
+                  "value" : 3259
+               },
+               "end_address" : "Taiwan Taoyuan International Airport (TPE), No. 9號, Hangzhan S Rd, Dayuan District, Taoyuan City, Taiwan 337",
+               "end_location" : 
+               {
+                  "lat" : 25.0728501,
+                  "lng" : 121.2296497
+               },
+               "start_address" : "Zhongzheng District, Taipei City, Taiwan 100",
+               "start_location" : 
+               {
+                  "lat" : 25.0355166,
+                  "lng" : 121.5175356
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "90 m",
+                        "value" : 90
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0348109,
+                        "lng" : 121.517101
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e toward \u003cb\u003e愛國東路\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "_wxwCs{tdVhBx@FHZR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0355166,
+                        "lng" : 121.5175356
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "26 m",
+                        "value" : 26
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0348236,
+                        "lng" : 121.5168443
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e愛國東路\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qrxwC{xtdVCf@@J"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0348109,
+                        "lng" : 121.517101
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "23 m",
+                        "value" : 23
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0349908,
+                        "lng" : 121.5167164
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003e中山南路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台9線\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "srxwCgwtdVa@V"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0348236,
+                        "lng" : 121.5168443
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 443
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0388186,
+                        "lng" : 121.5176134
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003e中山南路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台9線\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "usxwCovtdV[XQ?O?wAY{AWiAWg@Ke@IyAYIAuBc@QCGAyAUe@O"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0349908,
+                        "lng" : 121.5167164
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 800
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 143
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0455858,
+                        "lng" : 121.5195653
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003e中山南路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台9線\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : 
+                     {
+                        "points" : "skywCa|tdV?C?E?C?CAC?CACAA?AACECCCAACACAC?CAA?C?C?C@C?C@C@A@C@ABA@CBABAB?@c@I]GQEkB_@oB_@oEy@A?[IYGwE{@a@I_@Ie@KoDs@_@GiB]QCECo@M"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0388186,
+                        "lng" : 121.5176134
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.4 km",
+                        "value" : 2446
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 330
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0537217,
+                        "lng" : 121.4976474
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e忠孝西路一段\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e縱貫公路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台1線\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台3線\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow 縱貫公路/\u003cwbr/\u003e台1線\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "}uzwCihudVc@QC\\Kx@SvAe@vCALALCJAHI^ETGd@m@~DSpAOx@WvAI`@M|@G`@SrAOdAWbBAFA?QjAA@[lB]x@W`@SVU^IPGVIp@Cz@Ab@?BAx@Ah@?d@?ZC^?JAHCV[lBIf@O`AG^G^?@OfAKn@e@~CADADAFEV?BAHAFAD?BOl@Kb@OZADKTMZWr@a@`AMVEFABEBKFe@fAM^_@t@EJ_AnBa@`AGHa@z@Uh@c@|@i@hAq@|AuE~JiDnH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0455858,
+                        "lng" : 121.5195653
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1490
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 106
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.061475,
+                        "lng" : 121.4861333
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003e中山路高架道路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e忠孝橋\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e縱貫公路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台1線\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow 中山路高架道路/\u003cwbr/\u003e縱貫公路/\u003cwbr/\u003e台1線\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "wh|wCi_qdVo@rAm@tAWj@Wj@EJQ^GTIT[bAGRGPyBnHGVGXKl@EPGRIVILg@~@EHEH]f@i@~@OTGJIJ]b@g@l@WXABGFONOPEDEDEHABEDOPKJKLKNKNIJIPOXO\\MZYl@GJINGJKLIJKJONMLOJOFUPu@h@[REDGDu@h@]VEBCBi@^]TuA~@gAv@WPGDKHIFGJGFCFEFCHCFCHCNALAN?R?j@@PAP"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0537217,
+                        "lng" : 121.4976474
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.0 km",
+                        "value" : 1012
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 62
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0615745,
+                        "lng" : 121.4760886
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003e中山路高架道路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e縱貫公路\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台1線\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : 
+                     {
+                        "points" : "gy}wCiwndVBd@?\\AxA?hAAT@L?LAN?T?T?R?P?RAZAn@?\\?T?T?P@fAAvACfAErEA|@AbBCvA?b@?t@?t@BnDAb@?tA?fA?N@N?bA?bC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.061475,
+                        "lng" : 121.4861333
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "15.4 km",
+                        "value" : 15371
+                     },
+                     "duration" : 
+                     {
+                        "text" : "14 mins",
+                        "value" : 831
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1504036,
+                        "lng" : 121.3926543
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003e台64線\u003c/b\u003e via the ramp to \u003cb\u003eWugu\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eBali\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "yy}wCqxldVGXAV?jB?f@AnB?l@?`@?b@A|@C\\CPAHAJCPGVA@K`@GTIRS^ILILCBQXGLQXQZQ^cA~BEHCH]x@IRkAhCkCdHOX_BxDQ`@Sf@g@hAMTWp@ADi@nAS^ABITCFGLGLy@lBQ`@MZa@`AKXEHgAjCu@lBk@`BMXEZS`@KXMXKZYp@]r@gAfCg@lAc@z@w@~AqCvEk@x@m@z@GHMRy@fAc@f@k@r@kArAuAvA_@`@GJIHEDCBIHcB~A}@z@kH|Gm@j@cCvBy@r@k@d@gAr@CB_Ap@s@b@]R{@h@UN}@f@{@b@a@PkCnAG@oAh@SH}Bz@UHaA\\aCt@QDeCj@I@{@Pc@FgBVc@FUBMBc@DA?}ANm@FU@YBoAHi@Dw@Dw@@s@Bs@BK?M?_@@wDAsD?qAEuAIiAM]CgAOeAMA?cAMiAOGAc@GGAwAY{EiAa@Ma@IOCsA[WKk@OWIQEQGcA[_A[w@Ww@WSK{@Ys@Ya@Ou@[iBu@[O[OuLsGOMOIUMuB{AECaAw@WUe@]e@]oA}@QI_@UWOGCEA_@Mm@SYKe@Kg@Ge@Ea@Cg@@]@i@FOBQDu@PIBE@g@Tw@`@CBgBhBY`@EFADOVINS`@KVMXYbAG\\U|@GZGXGb@Ov@Kl@E`@G^WbCInAGv@GjACv@IzC?x@Ab@?b@?l@@vAH`DH~BJbBDl@BRHdAPbBTtBRlBJz@JfAD`@@TBTBd@@JFdA@d@@tACZCj@Cd@A^MvBKtACRARa@nCOx@EREPSbAy@hEOt@Oz@I\\AFQlAKh@g@tCGb@AHId@a@xCQlAGd@Id@If@?@Id@WxASjAENCPO|@GVUjAKd@Id@WhAKd@Kd@ABu@lCEPGPeAdD_@jAsBrGCJs@xByAvEKZCHaCdHcEhOuE|KWf@S^sBfEi@hASVaDrEUZqApAoBjBmAhA_BxAwD`DwGnFgIfGuFvDeJzGe@^eGpE]VqBlBo@l@[VQNo@l@GF[X[VIHWTCBa@^UPYT_GtEcAn@QLKFEDuAz@IFGD}@j@yFrCGBGD{@^}Al@mCx@uB^cB^cBNiBPc@BcADE@I?E?U?O@Y?S?W?s@CaCIM?KAK?IA[AI?KA{ACu@CI?O?iAEyA@K?K?E?gAFyBRI@C?aC^G@c@J{@PiAd@MDo@`@]RIFKJOLMLYZC@SZ[^SZ]f@ABk@r@C@o@r@A?WVw@d@A?CBwAz@gAj@_@RIDMHEBGDGBiBbASJ]R_@Re@XWL]RKFSJKFc@Vm@ZIFSJKFy@d@kAj@]RC?_@T[RIFGFC@ONCD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0615745,
+                        "lng" : 121.4760886
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 600
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 73
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1504173,
+                        "lng" : 121.3890357
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e臨港大道\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "_eoxCao|cVT\\n@v@BDvBhC@?vApB@?V\\T\\X\\V\\NXDL@D?@?BAF?@ABA@CBGDwAh@GB_@NQDeA^s@Vc@NwAf@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1504036,
+                        "lng" : 121.3926543
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "39 m",
+                        "value" : 39
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.150163,
+                        "lng" : 121.3890064
+                     },
+                     "html_instructions" : "Sharp \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-sharp-left",
+                     "polyline" : 
+                     {
+                        "points" : "ceoxCox{cVJZ`@QDC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1504173,
+                        "lng" : 121.3890357
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 762
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 55
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.1451962,
+                        "lng" : 121.3855055
+                     },
+                     "html_instructions" : "Take the ramp to \u003cb\u003eLinkou\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "ocoxCix{cVH@JA\\ETI`@KNEHCHCLE`@ONEPGBAJC?AB?LEBABAHA@AVGRA^AXBB@B?JDF@JD@@JDRN@@DDNJ@B@@FFPNPRr@v@V\\FJ@@BD@?DFJL@Bl@|@v@hALP~@bBf@fAl@vABFN\\Rj@^~@DBF@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.150163,
+                        "lng" : 121.3890064
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "21.9 km",
+                        "value" : 21914
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 920
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0878538,
+                        "lng" : 121.1865253
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003e台61線\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "odnxCmb{cV@DRp@Lh@BL\\rAFZBFH^f@vCh@zCX|Al@`Cr@zBz@pB@Bd@~@Xh@T`@PXZf@v@fA`AjADDPTFFFHHJFFDHHFHHFFFFHHHDZV\\V\\T|@p@t@h@\\V^Xz@t@^^LPLNlAfBXd@N\\DH\\v@Zt@FLf@dBn@fCBJ?Bb@nB\\|ABN@@V|@Rn@\\bApAhDRf@~AzDVl@^pADNJ^Rn@Nd@TbALd@RbABJBLPlALfA@H?@DVDb@LtAD\\Dd@PjB@JVhB@FFZFd@Jh@FV@F?@J`@Nl@HVJb@HXRj@X|@d@vAFR\\dAd@zAh@dBj@|ALd@b@tAnAfE`A|Cx@bCFRDLdAbDd@tALb@h@`B`@pAJ\\lB`Gd@|ANb@\\jAL`@Lb@Lb@Nb@FTJ\\Rx@Ld@Lb@Ld@n@nCf@rBDRFTJf@p@tBJ\\BDNb@N`@^`ARf@P`@b@bAFLjAnCt@zBXz@^fARl@l@`CR~@d@dCLt@\\pBb@fCDN?@J`@^|AXbAFRFTTz@pAhDvA~CP^dBzD|@dCb@hBf@pBF^H^PdABN@LBLBVXtBXlCRhBHv@JfARbBDb@Fd@Db@?@DXZxCLnARvBHrAL`CDfADhBFfC@j@@d@@dA?B@f@DtBHxDHjDDtB@fA@dB?\\?`@?f@?ZAfBCvBGhBAVIdCAHKfDOzDCp@KhC?DQ`EQfEEhAC`AE|AExA?T?f@AZ?`C@\\@bA?HB^@j@F|@Dp@?FBZ?@@F@Z?B@FB^FhABzA?B?z@Ef@ARCRGf@ABG`@I\\AFOb@cAdDGLOb@Q`@cAjCCFo@hBYbAM`@AHKd@I`@?BEd@Eb@?BEh@AbB@N@f@BZ@HDf@Fd@@BTjAJ^@B\\bAHPDNx@dBJTv@fBFHd@`AR`@|@rArAxADDTRpAlAXXFFd@b@NPr@p@hAjBLRDJfAhCP`@P`@b@bAfAlC`A~Bj@tAL^BJHPNn@DLH`@Lz@Fp@RzEDn@NpA^jCj@`DRzAHdA@v@?NAX?D?^UvIGdEAV?N?R?d@@h@Bv@Dn@JlA\\hDLfA?DLdB@N@f@@f@Bh@?J?hA@f@HrL?f@DlFDX@hB?hB?nA@d@?@C|BCx@G`AABKbAMjAOdA_@nB]~AUjAId@Kd@EX[tAyArGI\\IZcAhEENCFAF_@|Am@tCObAUtAAHAJCTE`@CRCZC\\?BARAN?@ARAP?@An@?bA?hABt@Dt@@f@Dh@JhAJfATlBDRhA~I@JBJP|ABL@N`@bDBRl@tDDVDVh@~B@HTv@^pABFDNDNb@tABDRl@JVn@`BVf@b@dAHNJPx@zAFLp@nAb@t@LTT^zBvDXh@|@`Bh@dAl@pAXt@p@jBZ`AFTBHf@pBDPJd@XvADXFd@Lt@BV@H@JBJ\\zCFd@PtA@NBLnAhKJt@XrB\\pBBNBPDRh@vCz@|Df@|BDPDR@Dz@|DfBnHBLDN^~Ap@bD\\dBFb@BLBL\\nBh@bEJbAHl@NlBDf@H`A`AbN@Z@VDt@BRFx@LnAT~A^xBBPFTl@pCfA~D`@pAd@zAZ|@|CpJZdAf@|A^tA@@tAhEb@tAHVHTTp@b@vA\\dANd@Nd@Pd@HXl@dBr@zBf@|AhBzFJZJX\\hAh@|Ad@pANf@LVJVZp@pC|FVd@~@~AV`@@BpBlCRTBDHJLNpBdCj@r@dEdFHJHJbCxCjB|BJLJLjAtAzC|DJPLNbB|Br@zAh@zADTFTH`@FVX|BBVDVJn@Hr@Hl@?FZ`CJf@BRDRNj@Tt@Tv@r@bBt@pAFHRXHLj@x@j@v@~B`DLPLNhAbBFLx@nAPVNV\\j@DDTb@\\h@\\j@r@vAR`@p@pAHPHTFTj@z@Vf@DLr@hAp@hA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.1451962,
+                        "lng" : 121.3855055
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 472
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0852389,
+                        "lng" : 121.1828519
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e29-大園\u003c/b\u003e toward \u003cb\u003eTaoyuan Airport\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eDayuan\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "a~bxCyftbVBNBD@B@Bp@dAvBfDVb@t@hAJNLNpBvCT^p@~@`@h@BDBFBDBN"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0878538,
+                        "lng" : 121.1865253
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 194
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0841516,
+                        "lng" : 121.1813526
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003e西濱路二段\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : 
+                     {
+                        "points" : "wmbxCyosbVX\\nAdBtA|BXh@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0852389,
+                        "lng" : 121.1828519
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.2 km",
+                        "value" : 2178
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 294
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0711021,
+                        "lng" : 121.1970222
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e民生路\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by 7-ELEVEn 內海門市 (on the right in 450m)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "}fbxCmfsbVLXt@w@l@g@zKcKhBwAPUR]Pa@L[Pc@hAeCRi@@E@Ih@kANWJO`C}DbCcET]zFkJT]lEyGfEiF`@g@zAiBlBaCTYjAoAxEmFXYf@i@^[dAy@d@]"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0841516,
+                        "lng" : 121.1813526
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 420
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0732234,
+                        "lng" : 121.2000495
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e國際路一段\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003e台15線\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ku_xCkhvbVXELKMQGIWYo@o@EEoBaCiAuAo@y@u@wAMUGKS_@Q[GKGK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0711021,
+                        "lng" : 121.1970222
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "89 m",
+                        "value" : 89
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0729922,
+                        "lng" : 121.2008233
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto the ramp to \u003cb\u003e國道2甲\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "sb`xCi{vbVEu@?S@IBG@G@EBEDGFGLMDC@A?A?A@A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0732234,
+                        "lng" : 121.2000495
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.3 km",
+                        "value" : 1342
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 72
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0644641,
+                        "lng" : 121.2098071
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e國道2甲\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ea`xCc`wbVj@Ub@QHCDAbA[tAc@PGNGNGNILIBAZSLKLMJKLMJOV]HORe@\\y@Ja@J[DGNa@@C@C^}@JWDIPa@Re@@AN[Pa@Xo@\\u@N_@Va@HMJQT_@j@{@BEtBkCbBaBfCwBfCwB`Au@DElCyB|@u@`Aw@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0729922,
+                        "lng" : 121.2008233
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1120
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 57
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0656754,
+                        "lng" : 121.2175545
+                     },
+                     "html_instructions" : "Take the exit toward \u003cb\u003e機場端\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : 
+                     {
+                        "points" : "{k~wCixxbV\\CNELGHEd@WLG`@URIh@UFEVK@ARKRITK@AFCPM@ALI^[TUT[T_@HU@AFUJ]T{@Li@@CJc@?k@?WAMCYAOEe@EW[_AM]AE]i@MSOOMQWS?AUQ}@q@IGGG]W_@[USSUGGIKSUGGGGUWOQOSCEKKKOMQMSKMMQSWSWIIAAOOAAY[c@a@GICCAAGEKGECGAU]A?SK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0644641,
+                        "lng" : 121.2098071
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 386
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0672976,
+                        "lng" : 121.2209216
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e機場端\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "os~wCuhzbVe@w@Q]Q_@s@uA[o@Qc@c@cA]eAQi@Ka@e@sBQw@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0656754,
+                        "lng" : 121.2175545
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1098
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 68
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 25.0728501,
+                        "lng" : 121.2296497
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003e航站南路\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "s}~wCw}zbVI_@W}@Yw@Um@AAO_@a@_AO[Wk@Sc@_@_A_@s@KOgAaBs@gAkA_B{@}@M[K]Oo@Ee@AYASEk@?CC]?CGSMc@IOSa@UYg@m@i@}@u@}@_AwAc@k@A?k@u@c@a@[Y_@Us@_@MI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 25.0672976,
+                        "lng" : 121.2209216
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "_ixwCm{}dVoC^hBD`@B`APAv@CdEEbDGbGC`@s@_@o@[w@UkCoAuBgAkLeGgr@u]wM{GmM}FkDyAwDEaNp@qBcAcEiEkIsIaCk@yERiPlAwMbAwLTaOcDqFOaNT{I`DoJ|FeCzEmAdGoGdZyFtFyE|CgNpEsDnB}AzDYdDhB|GcB|LmDjQqAdMk@v@gB`@ig@|B_Kb@yAv@kB^gBs@qADeFtDyAgCwAaD_CkDm@@aDyAyCbA_CEIrArALf@h@zAnGAF]f@jB`BzB^dFTzD`Br@jA~DtKe@nPgBjQqA`DuEhFhBjCtJxPhArC~@t@vAdCbF|I|CtFVl@dCVhCTnL`ApGE|DbAvBrAxGjEvHn@`FPfGrAjFpChFe@jLqBzIyA`GBpD_BhG}ElFgDxo@`@nb@XlVJvL}@`KcDbGmDbFeFn@e@nCRvPfDji@dLzNnBrLnAZ\\]pEy@vHw@lIaCdH{HbUM`@c@BqBcApBbAVz@_@b@m@XgBYsFeAkFcAiC}@QYs@HyYeFkMmCsAxJsFr]oClHSzHwCrSaDrJeR`a@oI|QgEvNaBlEgE`GwCvDmBvDiBzAyMjJi@nA?dEG`Ng@~}@kFtLmPv`@eJdUwBrF_MhUaJpKyObOgMrJqMrGmOvEuHfAmJr@eQHcNmAuNwCsTgHcWkNmHkF{EwAoG\\{FtEkBbFwA~HaAhSj@pRdBhQLpIwAdOsGt_@cE`UkH`V}CxJ_Pve@iExI}GxIuMpL{d@j]iQzN}CnCwMrJuKvFeMfDqFd@mDH_Sa@oJ|@wGhC}IpJw[lQe@`@dA`BrHrJR`AeFnBwAf@kAbA|@UhD_A`Ei@`EbDhIpNtBpFbDvP~CrJfBdDfEtFnIvGtFlH`EhNvLx^|C|U~DpOjR~l@hKh^rCbKbGjO`Jh`@pEdLnF|OjA~HlEdf@x@|g@uBhq@L`VTxFg@vFwHzUOvGx@fFxEtKlHpIpBnBdDtGnGvOrEnb@_@dTpA|Pd@vh@Q|FiAdIoExSgFnXI`Ch@|MbCtR`D~QvBzGtFjLrJfQlDlLtFpb@fMvl@jCjQnBxXlE|UfJxY`P`g@~D|KlKrQ|^zd@jBbFn@nEpAnJfEfKnItLjLxSbQrXpFnIf@bAbB_BjPoO|DmJvWkb@hWoZrD}Cf@QU[}DqE}D}Fu@sAK_Bl@}@bBu@lFmB~BeClEuK|CiGhGoHvIkHjHkFlAk@lCoA|Ay@bCeDz@}F{AuFwHgHkEqFcFsFsE_L{CqKqFqKiEaGc@mCk@mDwGiJmEqD"
+         },
+         "summary" : "堤頂大道二段",
+         "warnings" : [],
+         "waypoint_order" : 
+         [
+            0,
+            1
+         ]
+      }
+   ],
+   "status" : "OK"
+}
