@@ -22,10 +22,10 @@
         }
     </style>
     <script>
-      let map;
+      let mapvar;
 
       function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
+        mapvar = new google.maps.Map(document.getElementById("mapid"), {
           center: { lat: 45.976, lng: 7.658 },
           zoom: 13,
         });
@@ -33,7 +33,7 @@
     </script>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="mapid"></div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
