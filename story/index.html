@@ -9,20 +9,39 @@
 	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>   
     <script src="Top9PeaksTW.js"></script>
 	<style>
-      /* Set map height to define the size of the div element that contains the map*/
-	   	#mapMain {
-          	height: 100%;
+        /* Set map height to define the size of the div element that contains the map*/
+        #topInfo {
+            height: 10%;
+            background-color: rgb(190, 212, 208);
+        }
+        h1 {
+            height: 70%;
+            margin: 0px;
+            text-align: center;
+        }
+        p {
+            height: 30%;
+            margin: 0px;
+            text-align: center;
+        }
+        #mapMain {
+          	height: 90%;
         }
         /* Set size of html elements */
         html,
         body {
           	height: 100%;
-          	margin: 0;
-          	padding: 0;
+          	margin: 0px;
+          	padding: 0px;
         }
     </style>
 </head>
 <body>
+    <div id="topInfo">
+        <h1>Top 9 Highest Peaks in Taiwan</h1>
+        <p>Click on a marker to view the peak name and altitude.</p>
+    </div>
+    
     <div id="mapMain"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
 	<!-- IP Restricted API: AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE -->
